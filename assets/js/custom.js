@@ -1,4 +1,4 @@
-function custom(title, text, type, btnTxt, redirect) {
+function custom(title, text, type, btn, redirect) {
 	swal({
 		title: title,
 		text: text,
@@ -11,7 +11,7 @@ function custom(title, text, type, btnTxt, redirect) {
 	});
 }
 
-function simple(title, text, type, btnTxt) {
+function simple(title, text, type, btn) {
 	swal({
 		title: title,
 		text: text,
